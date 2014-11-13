@@ -1,0 +1,5 @@
+- if @error_message
+  $('#edit_address_errors').html(alert_box('danger', "#{@error_message.html_safe}"))
+- else
+  $('#list_addresses').html("#{escape_javascript(render partial: 'addresses/partials/list_addresses')}")
+  $.fancybox.close();

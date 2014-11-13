@@ -1,0 +1,16 @@
+/.bundle
+.keep
+.ruby-version
+.ruby-gemset
+.rspec
+.rubocop.yml
+.haml-lint.yml
+.reek
+
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+/log
+/tmp
+/bin
+/config/secrets.yml
