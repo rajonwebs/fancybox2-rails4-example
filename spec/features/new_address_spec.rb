@@ -33,7 +33,7 @@ feature 'fancybox for new address', js: true do
 
         click_button 'Save'
       end
-      expect(page).not_to have_content 'Henry'
+      expect(page).to have_content "Street can't be blank"
     end
   end
 end
