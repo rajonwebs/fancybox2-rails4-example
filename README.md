@@ -2,7 +2,10 @@
 
 Simple example of using fancybox2 in a Rails 4 app for a data entry form.
 
-Supporting code for blog post XXX on [joanswork.com](http://joanswork.com)
+Supporting code for blog post [How-to: Fancybox 2 and Rails forms](http://joanswork.com/fancybox2-rails4-example/) on [joanswork.com](http://joanswork.com)
+
+#####Installation
+Don't forget to create your own `config/secrets.yml` file.
 
 ###Author
 
